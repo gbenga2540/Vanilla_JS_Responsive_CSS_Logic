@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 300px;
+    justify-content: space-evenly;
+    overflow-x: hidden;
+    padding: 5px 0;
+}
+
+.row-1 {
+    background-color: aqua;
+    
+}
+
+.row-2 {
+    background-color: blue;
+    
+}
+
+.row-3 {
+    background-color: blueviolet;
+    
+}
+
+.row-4 {
+    background-color: darkgoldenrod;
+    
+}
+
+.row {
+    flex-grow: 1;
+    flex-basis: 22%;
+    min-width: 320px;
+    min-height: 400px;
+    margin: 5px;
+    position: relative;
+}
